@@ -45,8 +45,8 @@ byte values[11];
 #define PHOSPHORUS_FIELD 6
 #define POTASSIUM_FIELD 7
 #define RSSI_FIELD 8
-const char* ssid = "ICESCO 2"; 
-const char* password = "B123456789"; 
+const char* ssid = "put your wifi name here"; 
+const char* password = "put your wifi password here"; 
 
 #if !defined(SDA) || !defined(SCL)
 #if defined(_DTWI0_SDA_PIN) && defined(_DTWI0_SCL_PIN)
